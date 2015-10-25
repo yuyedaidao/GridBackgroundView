@@ -15,6 +15,7 @@
 		5511283A1BDC7D4600EC72E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551128381BDC7D4600EC72E1 /* LaunchScreen.storyboard */; };
 		551128451BDC7D4600EC72E1 /* GridBackgroundViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 551128441BDC7D4600EC72E1 /* GridBackgroundViewTests.m */; };
 		551128501BDC7D4600EC72E1 /* GridBackgroundViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5511284F1BDC7D4600EC72E1 /* GridBackgroundViewUITests.m */; };
+		551128601BDC7DB400EC72E1 /* GridBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5511285F1BDC7DB400EC72E1 /* GridBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5511284B1BDC7D4600EC72E1 /* GridBackgroundViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridBackgroundViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5511284F1BDC7D4600EC72E1 /* GridBackgroundViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridBackgroundViewUITests.m; sourceTree = "<group>"; };
 		551128511BDC7D4600EC72E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5511285E1BDC7DB400EC72E1 /* GridBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridBackgroundView.h; sourceTree = "<group>"; };
+		5511285F1BDC7DB400EC72E1 /* GridBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		5511281E1BDC7D4600EC72E1 = {
 			isa = PBXGroup;
 			children = (
+				5511285D1BDC7D8F00EC72E1 /* Classes */,
 				551128291BDC7D4600EC72E1 /* GridBackgroundView */,
 				551128431BDC7D4600EC72E1 /* GridBackgroundViewTests */,
 				5511284E1BDC7D4600EC72E1 /* GridBackgroundViewUITests */,
@@ -138,6 +142,15 @@
 				551128511BDC7D4600EC72E1 /* Info.plist */,
 			);
 			path = GridBackgroundViewUITests;
+			sourceTree = "<group>";
+		};
+		5511285D1BDC7D8F00EC72E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5511285E1BDC7DB400EC72E1 /* GridBackgroundView.h */,
+				5511285F1BDC7DB400EC72E1 /* GridBackgroundView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551128601BDC7DB400EC72E1 /* GridBackgroundView.m in Sources */,
 				551128321BDC7D4600EC72E1 /* ViewController.m in Sources */,
 				5511282F1BDC7D4600EC72E1 /* AppDelegate.m in Sources */,
 				5511282C1BDC7D4600EC72E1 /* main.m in Sources */,

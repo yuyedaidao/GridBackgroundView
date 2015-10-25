@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "551128261BDC7D4600EC72E1"
+               BuildableName = "GridBackgroundView.app"
+               BlueprintName = "GridBackgroundView"
+               ReferencedContainer = "container:GridBackgroundView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5511283F1BDC7D4600EC72E1"
+               BuildableName = "GridBackgroundViewTests.xctest"
+               BlueprintName = "GridBackgroundViewTests"
+               ReferencedContainer = "container:GridBackgroundView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5511284A1BDC7D4600EC72E1"
+               BuildableName = "GridBackgroundViewUITests.xctest"
+               BlueprintName = "GridBackgroundViewUITests"
+               ReferencedContainer = "container:GridBackgroundView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "551128261BDC7D4600EC72E1"
+            BuildableName = "GridBackgroundView.app"
+            BlueprintName = "GridBackgroundView"
+            ReferencedContainer = "container:GridBackgroundView.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "551128261BDC7D4600EC72E1"
+            BuildableName = "GridBackgroundView.app"
+            BlueprintName = "GridBackgroundView"
+            ReferencedContainer = "container:GridBackgroundView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "551128261BDC7D4600EC72E1"
+            BuildableName = "GridBackgroundView.app"
+            BlueprintName = "GridBackgroundView"
+            ReferencedContainer = "container:GridBackgroundView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

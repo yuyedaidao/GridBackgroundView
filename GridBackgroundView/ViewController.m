@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "GridBackgroundView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet GridBackgroundView *gbView;
 
 @end
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.gbView.lineColor = [UIColor redColor];
+    self.gbView.edgeLine = GBEdgeLineMake(YES, YES, YES, YES);
 }
 
 - (void)didReceiveMemoryWarning {
