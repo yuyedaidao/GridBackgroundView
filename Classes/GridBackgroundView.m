@@ -31,7 +31,7 @@
 }
 
 - (void)awakeFromNib{
-    [self commonInit];
+    _edgeLine = GBEdgeLineMake(NO, YES, NO, YES);
 }
 
 - (void)commonInit {
